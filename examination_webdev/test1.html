@@ -1,6 +1,69 @@
 <!DOCTYPE html>
 <html>
 
+<style>
+     
+     button{
+         border-radius: 5px;
+         color: snow;
+         background-color: tomato;
+         padding: 5px 10px 8px 10px;
+         transform: skewX(-24deg);
+        
+     }
+     button:hover{
+         animation-name: background-color;
+         animation-duration: 500ms;
+     }
+     @keyframes background-color{
+       100% {
+            background-color: thistle;
+        }
+     }
+    
+     h2{
+         position: relative;
+         top: 20px;
+     }
+     li{
+        color: sienna;
+    }
+    
+     .img{
+
+
+        
+        
+        float: right;
+        width: 250px
+       
+    
+    }
+    
+    
+    
+    .red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+ 
+    }
+  .pink-border {
+    border-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+  }
+  p{
+      font-family: 'Times New Roman', Times, serif;
+      padding: 5px 5px;
+        font-size: 20px;
+        line-height: 25px;
+  }
+
+</style>
+    
 <head>
     <link rel="stylesheet" href="css/base.css">
     </link>
@@ -16,10 +79,26 @@
     </div>
 
     <div style="padding-left:16px">
-        <h2>Test1</h2>
-        <p>Test1.</p>
+        <h2 class ="pink-border"  style="color: red;">Målvakter</h2>
+        <p>Här är de 5 målvakter med bäst räddningsprocent!</p>
     </div>
+    <img loading="lazy" class="img red-border" src = "https://upload.wikimedia.org/wikipedia/commons/8/8a/Carey_Price_-_Montreal_Canadiens.jpg" alt= "Carey Price">
 
+    <p>
+        <ol>
+            <li>Alex Nedeljkovic</li>
+            <li>Semyon Varlamov</li>
+            <li>Marc-André Fleury</li>
+            <li>Chris Driedger</li>
+            <li>Juuse Saros</li>
+        </ol>
+    </p>
+    <input type="text" placeholder="Spelare" required>
+   <button>klicka!</button>
 </body>
+
+
+
+
 
 </html>

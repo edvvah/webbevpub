@@ -6,8 +6,8 @@ function addNavBar() {
     // The buttons to exist in the navbar, what they should say as text is the key
     // The value is the corresponding html file to swap to on click.
     let navigation = {
-        "Home": "index.html",
-        "Test1": "test1.html",
+        "Välkommen": "index.html",
+        "Målvakter": "test1.html",
         "Test2": "test2.html",
     };
 
